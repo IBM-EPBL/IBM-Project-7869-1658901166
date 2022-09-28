@@ -1,0 +1,20 @@
+import random
+while (1):
+    a= random.randint(50,100)
+    b= random.randint(20,50)
+    print ('a:',a)
+    print('b:', b)
+    if(a>80):
+        print ("high temperature")
+        if (b<40):
+            print("fire detection")
+        elif (b==40):
+            print ("Huminity at risk level")
+        else:
+            print("alarm on")
+    elif(a==80):
+        print("risk level")
+    else:
+        print ('''normal conditions
+alarm off''')
+        
